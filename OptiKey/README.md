@@ -3,22 +3,20 @@
 
 # OptiKey - Class Project
 
-Stage 0:
-
-1. Project name: 
+1. We've selected to add modelling documentation to the following project: 
   - OptiKey - OptiKey is an assistive on-screen keyboard which runs on Windows.
   - [OptiKey Repository](https://github.com/OptiKey/OptiKey)
-1. Team members:
+1. Our team consists of the following members:
     - [Adir Elfersy](https://github.com/adirel)
     - [Yair Shalev](https://github.com/Yairishalev)
     - [Nir Alcalay](https://github.com/niral)
     - [Katya Denef](https://github.com/katyadenef)
     - [Ilan Matityahoo](https://github.com/ilanMatityahoo)
 
-Stage 1: 
-[Intrudaction](https://github.com/adirel/ASOSMA/blob/master/OptiKey/Introduction.md)
+Following is the introduction to OptiKey: 
+[Introduction](https://github.com/adirel/ASOSMA/blob/master/OptiKey/Introduction.md)
 
-Stage 2: 
+Here are some views and prespectives on the system: 
 [Views and prespectives](https://github.com/adirel/ASOSMA/blob/master/OptiKey/viewsandprespectives.md)
 
 

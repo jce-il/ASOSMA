@@ -7,6 +7,22 @@ Your device should be relatively modern/capable, but high-end computer specs are
 If you are using an eye tracking device your PC/laptop/tablet will need to meet the minimum requirements of your eye tracker's software. 
 These are typically more than enough for OptiKey to run flawlessly.
 
+##OptiKey - Code analysis and evaluation metrics
+
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/1.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/2.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/3.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/4.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/5.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/6.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/7.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/8.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/9.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/10.PNG)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/11.PNG)
+
+
+
 ## qualities handling
 OptiKey is an assistive on-screen keyboard which runs on Windows only.
 

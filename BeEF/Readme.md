@@ -220,10 +220,10 @@ Codebeat gives instant feedback on the code. It is Automated code review for Swi
 codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.  
 BeEF has a 2.14 GPA _(a number which ranges from 0-worst to 4-best)_, C grade according to Codebeat. [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
   
-![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/git_grade.png)  
+![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/git_grade.png)  
 
                                  
 
 CodeBeat presents to us a list of critical issues that should improve our GPA score significantely. Most of these hot spots are similar code or even identical in 2 places.
 According to [BeEF’s codebeat](https://codebeat.co/projects/github-com-beefproject-beef),they have many problems in a class called CommandDispatcher ::Core .   
-![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/git_errors.png)  
+![](https://github.com/rivkage/ASOSMA/blob/master/git_errors.PNG)  

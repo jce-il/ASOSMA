@@ -1,3 +1,4 @@
+[![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
 
 # ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/beef.png) The BeEF Project 
 
@@ -5,7 +6,7 @@
                 Ran Itzhaki ([ranitz](https://github.com/ranitz)), 
                 Itsik Rabinovitch ([itzikrb100](https://github.com/itsikrb100)), 
                 Rivka Gehler ([rivkage](https://github.com/rivkage)),
-                Mihal Seneor ([michalseneor](https://github.com/michalseneor))
+                Michal Seneor ([michalseneor](https://github.com/michalseneor))
 
 
 ## Introduction
@@ -165,7 +166,7 @@ All the other major bugs are from 2 years ago or more so we guess it was fixed i
 
 &nbsp;
 
-## **Metrics, Variability and Quality Measures**  
+### **Metrics, Variability and Quality Measures**  
   
 &nbsp;
   

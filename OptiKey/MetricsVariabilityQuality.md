@@ -1,8 +1,7 @@
 #Metrics, Variability and Quality Measures
 
 ##OptiKey - coping with the pace 
-OptiKey should work on a Windows PC/laptop/tablet that is capable of running the .Net 4.6 Framework (this does not include Windows RT tablets), 
-which should be any version of Windows from Vista SP2 up to Windows 10.
+OptiKey should work on a Windows PC/laptop/tablet that is capable of running the .Net 4.6 Framework (this does not include Windows RT tablets), which should be any version of Windows from Vista SP2 up to Windows 10.
 Your device should be relatively modern/capable, but high-end computer specs are not required by OptiKey.
 If you are using an eye tracking device your PC/laptop/tablet will need to meet the minimum requirements of your eye tracker's software. 
 These are typically more than enough for OptiKey to run flawlessly.
@@ -23,16 +22,14 @@ These are typically more than enough for OptiKey to run flawlessly.
 
 
 
-## qualities handling
+## Qualities Handling
 OptiKey is an assistive on-screen keyboard which runs on Windows only.
 
-it is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND)
+It is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND).
 
 OptiKey was written to challenge the outrageously expensive, unreliable and difficult to use AAC (alternative and augmentative communication) products on the market. It is, therefore, fully open-source and free. Forever.
 
-It works out of the box once you have your eye-tracking device installed and allows selections to be made using dwell selection,
-
-as well as physical buttons and assistive devices. If you do not have an eye tracking device you can use OptiKey with a mouse or your webcam.
+It works out of the box once you have your eye-tracking device installed and allows selections to be made using dwell selection, as well as physical buttons and assistive devices. If you do not have an eye tracking device you can use OptiKey with a mouse or your webcam.
 
 OptiKey can be used as an alternative to a physical keyboard, allowing you to type into any application.
 

@@ -220,7 +220,7 @@ Codebeat gives instant feedback on the code. It is Automated code review for Swi
 codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.  
 BeEF has a 2.14 GPA _(a number which ranges from 0-worst to 4-best)_, C grade according to Codebeat. [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
   
-![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/git_grade.png)  
+![](https://github.com/rivkage/ASOSMA/blob/master/git_grade.PNG)  
 
                                  
 

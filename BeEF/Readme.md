@@ -247,7 +247,7 @@ It supports all browsers.
 2.	Confirm Close Tab
 When a user wants to close a tab, a confirm dialog appears. If “yes” is clicked, the window is re-display till the user clicks “no”
 All browsers are supported expect Opera.
-
+![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/save.png)
 
 3.	Create Foreground iFrame
 This module will rewrite all the links in the webpage to avoid leaving the current page. Instead, the module will load the target URL in a 100% foreground iframe. Stealth but the URL still does not change !

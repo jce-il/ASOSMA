@@ -1,5 +1,4 @@
 # Views and prespectives 
-(stage 2)
 
 ## OptiKey Fork
 
@@ -29,7 +28,7 @@ OptiKey is an assistive on-screen keyboard which is designed for a wide range of
 
 People with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND), can use this ןncredible keyboard.
 
-Main Features:
+### Main Features:
 * [Typing words](https://github.com/OptiKey/OptiKey/wiki/Type-your-first-word)
 * [Writing Numbers, symbols and diacritics](https://github.com/OptiKey/OptiKey/wiki/Numbers,-symbols-and-diacritics)
 * [Using eye trackers](https://github.com/OptiKey/OptiKey/wiki/Using-eye-trackers)
@@ -54,10 +53,10 @@ Main Features:
 * [Word settings](https://github.com/OptiKey/OptiKey/wiki/Word-settings)
 * [Pointing & selecting settings](https://github.com/OptiKey/OptiKey/wiki/Pointing-&-selecting-settings)
 
-## Analyze and describe the major or important designs with UML diagrams and or other modeling means
+## Major/important design analysis using modeling means
 
-one of the most importent stages which represent a open source comuninity add value and system expandad measors.
- this diagram describe the 4 stages wich needed to adding a new local.
+One of the most important stages which represent an open source communinity is adding value and system expandad measures.
+The following diagram describe the 4 stages wich needed to adding a new local.
 * UI element translations
 * a word dictionary
 * a keyboard layout
@@ -79,7 +78,7 @@ Issues:
 * [Multi-key selection issues](https://github.com/OptiKey/OptiKey/wiki/Multi-key-selection-issues)
 * [OS language has changed](https://github.com/OptiKey/OptiKey/wiki/OS-language-has-been-changed)
 
-Localisation: 
+Localization: 
 * [Italian](https://github.com/OptiKey/OptiKey/issues/264)
 * [Croatian](https://github.com/OptiKey/OptiKey/issues/263)
 * [Slovene](https://github.com/OptiKey/OptiKey/issues/248)

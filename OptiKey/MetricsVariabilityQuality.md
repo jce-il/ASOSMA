@@ -24,11 +24,11 @@ OptiKey can automatically insert spaces between words and capitalise letters for
 
  You can even type whole words and phrases in a single selection by "swiping" or using "auto-complete".
 
-![](images/image1.png)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/image1.PNG)
 
 OptiKey can replace your mouse, allowing you to click, scroll and drag with precision anywhere on screen.
 
-![](images/image2.png)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/image2.png)
 
 To communicate naturally with those around you select the 'Speak' key and OptiKey will convert what you have typed into speech.
 
@@ -48,10 +48,10 @@ Type your first word
 
 If you make a mistake you can use the backspace key to delete your last selection:
 
-![](images/image3.png)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/image3.png)
 
 or the BackMany key to delete the last whole word:
 
-![](images/image4.png)
+![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/image4.png)
 That's all there is to start selecting keys and typing words
 check out the [video section](https://github.com/JuliusSweetland/OptiKey/wiki/Videos).

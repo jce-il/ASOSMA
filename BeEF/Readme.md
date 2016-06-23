@@ -162,3 +162,68 @@ All the other major bugs are from 2 years ago or more so we guess it was fixed i
 
 
 3. Implement VNC style functionality in BeeF. This will allow real time monitoring of the hooked-browser’s view. That is, when the hooked browser follows a (onsite) link or enters content into input boxes it is viewed/monitored/recorded in the framework. The framework will have a proxy running on the loopback. When a browser connects to this proxy, the user can watch a playback or watch real-time with the user’s session.
+
+&nbsp;
+
+## **Metrics, Variability and Quality Measures**  
+  
+&nbsp;
+  
+#### **Testing**  
+  
+BeEF is coping with the pace of change commonly expected from software by implementing a testing suite framework that currently have the following categories : 
+
+   *	Integration testing :
+  With use Capybara and Selenium-WebDriver that seeks to verify the interfaces between components against a software design. With these tools,They  instrument the browser from a user’s point of view to do stuff like login into the BeEF Web GUI. When running these tests, you will see a browser being open. This testing categorie is responsible to run functional tests on the Web GUI and test module execution. But it is currently implemented on Firefox only. BeEF is working on extending the testing suite including all the other browser.
+
+   *	Unit testing : on the directory structure, default config options and basic components like the network_handler
+
+   *	thirdparty/msf that contains Metasploit related test files. With these tests Metasploit is started, connectivity and authentication to Metasploit's msgrpc is tested.
+
+   *	thirdparty/bundle_audit that updates Ruby Gems vulnerability database and checks gems for vulnerabilities.  
+
+  
+  &nbsp;
+ 
+#### **Variability**  
+  
+BeEF is currently made up of 3 main components : Core,Extensions and Modules
+
+   * **Extensions :** Web UI, XSSRays, Proxy/Requester, Metasploit, Console, Demo pages, Event handling, Browser initialisation.
+
+   * **Command Modules :** Browser, Recon, Persistence, Network, Miscellanous, Router, Host, Debugging.
+
+   * **Core :** Central API, Filters, Primary client-side JS,Server-side asset handling, Web servicing, Ruby extensions, Database models, Hooking methods for Extensions & Modules.
+
+The official page lists 128 modules (exploits)
+
+Basically, modules are all stored in the module directory and are composed of three main files :  
+   *	config.yaml : The YAML configuration file which describe properties of the module
+  
+   *	module.rb which allow integrating the module in the BeEF web interface
+  
+   *	command.js : the JavaScript "payload" which will be executed on the hooked browser. 
+  
+BeEF has been designed in a modular way to make it easy to create new modules and add them. Modular framework can be easily extended with custom browser ex&ploitation commands.
+BeEF can be configured to be integrated with Metasploit.
+
+  
+&nbsp;
+
+#### **The applicability of a design metric tool to the project code**
+
+![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/codebeat.jpg)  
+
+We have decided to analyze BeEf project’s code with a design metric tool named CodeBeat. 
+
+Codebeat gives instant feedback on the code. It is Automated code review for Swift, Ruby, Go, etc...
+codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.  
+BeEF has a 2.14 GPA _(a number which ranges from 0-worst to 4-best)_, C grade according to Codebeat. [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
+  
+![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/git_grade.png)  
+
+                                 
+
+CodeBeat presents to us a list of critical issues that should improve our GPA score significantely. Most of these hot spots are similar code or even identical in 2 places.
+According to [BeEF’s codebeat](https://codebeat.co/projects/github-com-beefproject-beef),they have many problems in a class called CommandDispatcher ::Core .   
+![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/git_errors.png)  

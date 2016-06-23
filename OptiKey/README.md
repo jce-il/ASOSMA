@@ -20,6 +20,7 @@ Here are some views and prespectives on the system:
 [Views and prespectives](https://github.com/adirel/ASOSMA/blob/master/OptiKey/viewsandprespectives.md)
 
 [Metrics , Variability and Quality](https://github.com/adirel/ASOSMA/blob/master/OptiKey/MetricsVariabilityQuality.md)
+
 [OptiKey presentation](https://github.com/adirel/ASOSMA/blob/master/OptiKey/ASOSNA - OptiKey.pptx)
 
 

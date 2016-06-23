@@ -227,3 +227,41 @@ BeEF has a 2.14 GPA _(a number which ranges from 0-worst to 4-best)_, C grade ac
 CodeBeat presents to us a list of critical issues that should improve our GPA score significantely. Most of these hot spots are similar code or even identical in 2 places.
 According to [BeEF’s codebeat](https://codebeat.co/projects/github-com-beefproject-beef),they have many problems in a class called CommandDispatcher ::Core .   
 ![](https://github.com/rivkage/ASOSMA/blob/master/git_errors.PNG)  
+
+###**Qualities of product**
+
+**Availability**
+
+The availability of a software product refers to the use of software to ensure that systems are running and available most of the time. 
+BeEF is a penetration testing tool that focuses on the web browser. The availability of this framework depends essentially on network accessibility.
+Also, Beef documentation provides support in case of unsuccessful installation or encountered issues when using the tool.
+
+**Persistency**
+
+When a user runs up BeEF currently, there are two components started: the User Interface and the Communication Server (CS).
+CS is the component that communicates via HTTP with the hooked browsers. In order to keep a browser hooked, and ensure the connection, four modules have been developed:
+1.	Create Pop Under
+This module creates a new discrete pop under window with the BeEF hook included. Another browser node will be added to the hooked browser tree.
+It supports all browsers.
+
+2.	Confirm Close Tab
+When a user wants to close a tab, a confirm dialog appears. If “yes” is clicked, the window is re-display till the user clicks “no”
+All browsers are supported expect Opera.
+
+
+3.	Create Foreground iFrame
+This module will rewrite all the links in the webpage to avoid leaving the current page. Instead, the module will load the target URL in a 100% foreground iframe. Stealth but the URL still does not change !
+
+4.	Man In The Browser
+This module launches a great Man-In-The-Browser hack : the module loaded will handle every click on a new link. For links in the same domain, it will make an AJAX request and load the new page instead of the old one and add the page in the history, there is no difference for the user with a classical load but the browser is still hooked. Due to the Same Origin Policy, it is not possible to have the same behavior on other domain, so in this case, the module will open the link in a new tab.
+
+Note that this module will cease working if the user manually enters a new URL in the address bar.
+
+###**Conclusion**
+Nowadays, security is essential for every software in order to defend computers and network against intrusion and unauthorized use of resources. 
+BeEF gives us an opportunity to simulate hacker attacks by examine exploitability in browser context.
+The open source is available for everyone, and let us the possibility to verify security in a simple and accessible way. 
+
+Analyze an unknown project is not an easy task. Working on it as a team helped up to get over the difficulty by organizing and dispatching the work.
+Software modeling is the base and the first non-negligible part of a successful project. It consists in elaborating the best architecture for the product, using adapted tools and procedures. 
+The course gave us the necessary tools in order to achieve this work successfully.

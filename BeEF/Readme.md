@@ -113,7 +113,7 @@ Suggesting new module to Beef Process:
 
 **Users**
 
-Since the BeeF project is dependent on their users to use the system to assess the actual security posture of a target environment by using client-side attack vectors they embrace them to contribute to the continuous improvement of the web browsers penetration system by reporting bugs and proposing new modules. Also the web browsers companies themselves can benefit from using the framework in order to identify vulnerabilities in their browsers and close  them.
+Since the BeeF project is dependent on their users to use the system to assess the actual security posture of a target environment by using client-side attack vectors they embrace them to contribute to the continuous improvement of the web browsers penetration system by reporting bugs and proposing new modules. Also the web browsers companies themselves can benefit from using the framework in order to identify vulnerabilities in their browsers and close them.
 
 
 
@@ -204,7 +204,7 @@ Basically, modules are all stored in the module directory and are composed of th
   
    *	command.js : the JavaScript "payload" which will be executed on the hooked browser. 
   
-BeEF has been designed in a modular way to make it easy to create new modules and add them. Modular framework can be easily extended with custom browser ex&ploitation commands.
+BeEF has been designed in a modular way to make it easy to create new modules and add them. Modular framework can be easily extended with custom browser exploitation commands.
 BeEF can be configured to be integrated with Metasploit.
 
   

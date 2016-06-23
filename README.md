@@ -19,6 +19,7 @@ title: Azrieli Students On Software Modeling and Architecture
   * [Introduction](OptiKey/Introduction.md)
   * [ViewS and Prespectives](OptiKey/viewsandprespectives.md)
   * [Metrics , Variability and Quality](https://github.com/adirel/ASOSMA/blob/master/OptiKey/MetricsVariabilityQuality.md)
+  * [OptiKey presentation and conclusions](https://github.com/adirel/ASOSMA/blob/master/OptiKey/ASOSNA - OptiKey.pptx)
 * BeEF: [BeEF] (BeEF/)
   * [Readme](BeEF/Readme.md)
 * [VIDEO.JS](VideoJs/README.md):

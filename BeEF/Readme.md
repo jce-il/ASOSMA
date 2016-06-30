@@ -1,3 +1,4 @@
+[![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
 
 # ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/beef.png) The BeEF Project 
 
@@ -5,7 +6,7 @@
                 Ran Itzhaki ([ranitz](https://github.com/ranitz)), 
                 Itsik Rabinovitch ([itzikrb100](https://github.com/itsikrb100)), 
                 Rivka Gehler ([rivkage](https://github.com/rivkage)),
-                Mihal Seneor ([michalseneor](https://github.com/michalseneor))
+                Michal Seneor ([michalseneor](https://github.com/michalseneor))
 
 
 ## Introduction
@@ -113,7 +114,7 @@ Suggesting new module to Beef Process:
 
 **Users**
 
-Since the BeeF project is dependent on their users to use the system to assess the actual security posture of a target environment by using client-side attack vectors they embrace them to contribute to the continuous improvement of the web browsers penetration system by reporting bugs and proposing new modules. Also the web browsers companies themselves can benefit from using the framework in order to identify vulnerabilities in their browsers and close  them.
+Since the BeeF project is dependent on their users to use the system to assess the actual security posture of a target environment by using client-side attack vectors they embrace them to contribute to the continuous improvement of the web browsers penetration system by reporting bugs and proposing new modules. Also the web browsers companies themselves can benefit from using the framework in order to identify vulnerabilities in their browsers and close them.
 
 
 
@@ -132,6 +133,11 @@ Since the BeeF project is dependent on their users to use the system to assess t
  
  ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/sequence%20diagram%20login.png)
 
+
+**description RESTful API sequence diagram :** In order to use the API, a token parameter must be always added to requests
+ (Alternatively,if you want to write automated scripts that uses the RESTful API, you can issue a POST request to /api/admin/login using the BeEF credentials).After this The hooks handler gives information about the hooked browsers, both online and offline.[wiki]
+ (https://github.com/beefproject/beef/wiki/BeEF-RESTful-API)
+ 
 
 ####**Challenges**
 
@@ -157,3 +163,106 @@ All the other major bugs are from 2 years ago or more so we guess it was fixed i
 
 
 3. Implement VNC style functionality in BeeF. This will allow real time monitoring of the hooked-browser’s view. That is, when the hooked browser follows a (onsite) link or enters content into input boxes it is viewed/monitored/recorded in the framework. The framework will have a proxy running on the loopback. When a browser connects to this proxy, the user can watch a playback or watch real-time with the user’s session.
+
+&nbsp;
+
+### **Metrics, Variability and Quality Measures**  
+  
+&nbsp;
+  
+#### **Testing**  
+  
+BeEF is coping with the pace of change commonly expected from software by implementing a testing suite framework that currently have the following categories : 
+
+   *	Integration testing :
+  With use Capybara and Selenium-WebDriver that seeks to verify the interfaces between components against a software design. With these tools,They  instrument the browser from a user’s point of view to do stuff like login into the BeEF Web GUI. When running these tests, you will see a browser being open. This testing categorie is responsible to run functional tests on the Web GUI and test module execution. But it is currently implemented on Firefox only. BeEF is working on extending the testing suite including all the other browser.
+
+   *	Unit testing : on the directory structure, default config options and basic components like the network_handler
+
+   *	thirdparty/msf that contains Metasploit related test files. With these tests Metasploit is started, connectivity and authentication to Metasploit's msgrpc is tested.
+
+   *	thirdparty/bundle_audit that updates Ruby Gems vulnerability database and checks gems for vulnerabilities.  
+
+  
+  &nbsp;
+ 
+#### **Variability**  
+  
+BeEF is currently made up of 3 main components : Core,Extensions and Modules
+
+   * **Extensions :** Web UI, XSSRays, Proxy/Requester, Metasploit, Console, Demo pages, Event handling, Browser initialisation.
+
+   * **Command Modules :** Browser, Recon, Persistence, Network, Miscellanous, Router, Host, Debugging.
+
+   * **Core :** Central API, Filters, Primary client-side JS,Server-side asset handling, Web servicing, Ruby extensions, Database models, Hooking methods for Extensions & Modules.
+
+The official page lists 128 modules (exploits)
+
+Basically, modules are all stored in the module directory and are composed of three main files :  
+   *	config.yaml : The YAML configuration file which describe properties of the module
+  
+   *	module.rb which allow integrating the module in the BeEF web interface
+  
+   *	command.js : the JavaScript "payload" which will be executed on the hooked browser. 
+  
+BeEF has been designed in a modular way to make it easy to create new modules and add them. Modular framework can be easily extended with custom browser exploitation commands.
+BeEF can be configured to be integrated with Metasploit.
+
+  
+&nbsp;
+
+#### **The applicability of a design metric tool to the project code**
+
+![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/codebeat.jpg)  
+
+We have decided to analyze BeEf project’s code with a design metric tool named CodeBeat. 
+
+Codebeat gives instant feedback on the code. It is Automated code review for Swift, Ruby, Go, etc...
+codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.  
+BeEF has a 2.14 GPA _(a number which ranges from 0-worst to 4-best)_, C grade according to Codebeat. [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
+  
+![](https://github.com/rivkage/ASOSMA/blob/master/git_grade.PNG)  
+
+                                 
+
+CodeBeat presents to us a list of critical issues that should improve our GPA score significantely. Most of these hot spots are similar code or even identical in 2 places.
+According to [BeEF’s codebeat](https://codebeat.co/projects/github-com-beefproject-beef),they have many problems in a class called CommandDispatcher ::Core .   
+![](https://github.com/rivkage/ASOSMA/blob/master/git_errors.PNG)  
+
+###**Qualities of product**
+
+**Availability**
+
+The availability of a software product refers to the use of software to ensure that systems are running and available most of the time. 
+BeEF is a penetration testing tool that focuses on the web browser. The availability of this framework depends essentially on network accessibility.
+Also, Beef documentation provides support in case of unsuccessful installation or encountered issues when using the tool.
+
+**Persistency**
+
+When a user runs up BeEF currently, there are two components started: the User Interface and the Communication Server (CS).
+CS is the component that communicates via HTTP with the hooked browsers. In order to keep a browser hooked, and ensure the connection, four modules have been developed:
+1.	Create Pop Under
+This module creates a new discrete pop under window with the BeEF hook included. Another browser node will be added to the hooked browser tree.
+It supports all browsers.
+
+2.	Confirm Close Tab
+When a user wants to close a tab, a confirm dialog appears. If “yes” is clicked, the window is re-display till the user clicks “no”
+All browsers are supported expect Opera.
+![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/save.png)
+
+3.	Create Foreground iFrame
+This module will rewrite all the links in the webpage to avoid leaving the current page. Instead, the module will load the target URL in a 100% foreground iframe. Stealth but the URL still does not change !
+
+4.	Man In The Browser
+This module launches a great Man-In-The-Browser hack : the module loaded will handle every click on a new link. For links in the same domain, it will make an AJAX request and load the new page instead of the old one and add the page in the history, there is no difference for the user with a classical load but the browser is still hooked. Due to the Same Origin Policy, it is not possible to have the same behavior on other domain, so in this case, the module will open the link in a new tab.
+
+Note that this module will cease working if the user manually enters a new URL in the address bar.
+
+###**Conclusion**
+Nowadays, security is essential for every software in order to defend computers and network against intrusion and unauthorized use of resources. 
+BeEF gives us an opportunity to simulate hacker attacks by examine exploitability in browser context.
+The open source is available for everyone, and let us the possibility to verify security in a simple and accessible way. 
+
+Analyze an unknown project is not an easy task. Working on it as a team helped up to get over the difficulty by organizing and dispatching the work.
+Software modeling is the base and the first non-negligible part of a successful project. It consists in elaborating the best architecture for the product, using adapted tools and procedures. 
+The course gave us the necessary tools in order to achieve this work successfully.

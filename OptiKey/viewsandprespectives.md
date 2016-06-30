@@ -28,7 +28,7 @@ OptiKey is an assistive on-screen keyboard which is designed for a wide range of
 
 People with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND), can use this incredible keyboard.
 
-Main Features:
+### Main Features:
 * [Typing words](https://github.com/OptiKey/OptiKey/wiki/Type-your-first-word)
 * [Writing Numbers, symbols and diacritics](https://github.com/OptiKey/OptiKey/wiki/Numbers,-symbols-and-diacritics)
 * [Using eye trackers](https://github.com/OptiKey/OptiKey/wiki/Using-eye-trackers)
@@ -57,6 +57,11 @@ Main Features:
 
 One of the most important stages which represent a open source communinity is adding value and system expandad measures.
 The following diagram describes the 4 stages which are needed to add a new locale.
+
+## Major/important design analysis using modeling means
+
+One of the most important stages which represent an open source communinity is adding value and system expandad measures.
+The following diagram describe the 4 stages wich needed to adding a new local.
 * UI element translations
 * word dictionary
 * keyboard layout
@@ -78,7 +83,7 @@ Issues:
 * [Multi-key selection issues](https://github.com/OptiKey/OptiKey/wiki/Multi-key-selection-issues)
 * [OS language has changed](https://github.com/OptiKey/OptiKey/wiki/OS-language-has-been-changed)
 
-Localisation: 
+Localization: 
 * [Italian](https://github.com/OptiKey/OptiKey/issues/264)
 * [Croatian](https://github.com/OptiKey/OptiKey/issues/263)
 * [Slovene](https://github.com/OptiKey/OptiKey/issues/248)

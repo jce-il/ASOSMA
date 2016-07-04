@@ -45,7 +45,7 @@ They can find the bugs that need to be fixed at the following list:
 
 * Bugs:           [File a new bug](https://bugzilla.mozilla.org/enter_bug.cgi?bug_file_loc=http%3A%2F%2F&bug_ignored=0&op_sys=iOS%20&product=Firefox%20for%20iOS&rep_platform=All) • [Existing bugs](https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox%20for%20iOS) 
 
-* Another ASOSMA project: http://aosabook.org/en/ffreleng.html
+* Another AOSA project: http://aosabook.org/en/ffreleng.html
 
 
 # Statics
@@ -270,3 +270,25 @@ general detailed code structure can be found at (note: this code structure are f
   However, instead of using pairing, a “wrapped” version of your secret key, protected by your password, is stored alongside your Firefox Account.
   This means you can recover all your data, even if you lose all your devices at the same time.
   Setting up a new device only requires typing your Firefox Account email and password into it.
+
+  
+## Conclusion
+	
+	Firefox is one of many popular browsers either for ios or any other platform. It has many challenges to overcome to make sure users use their browser and not their competitors. 
+	
+	They work as agile to make sure all bugs and small missing features are add/fixed in short time. They keep their code organized so people can contribute with an ease.
+	
+	Although Google has their own browser, they pay Firefox to keep Google as their default search engine.
+	
+	We have send them a PR and added a missing feature as stated above in "Missing important feature" section. Recently their reviewer [replied](https://bugzilla.mozilla.org/show_bug.cgi?id=1228089#c7) and said : 
+	
+	"LGTM. Thanks :rawisa 
+
+	Sorry it took me so long to get around to it. It got lost in my review queue."
+
+	LGTM AKA Looks good to me. Which means they will merge my PR soon ;)
+	
+	
+	
+	A summary presentation can be found [HERE](Firefox IOSp.pptx)
+	

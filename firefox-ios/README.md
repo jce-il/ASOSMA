@@ -274,21 +274,21 @@ general detailed code structure can be found at (note: this code structure are f
   
 ## Conclusion
 	
-	Firefox is one of many popular browsers either for ios or any other platform. It has many challenges to overcome to make sure users use their browser and not their competitors. 
+  Firefox is one of many popular browsers either for ios or any other platform. It has many challenges to overcome to make sure users use their browser and not their competitors. 
 	
-	They work as agile to make sure all bugs and small missing features are add/fixed in short time. They keep their code organized so people can contribute with an ease.
+  They work as agile to make sure all bugs and small missing features are add/fixed in short time. They keep their code organized so people can contribute with an ease.
 	
-	Although Google has their own browser, they pay Firefox to keep Google as their default search engine.
+  Although Google has their own browser, they pay Firefox to keep Google as their default search engine.
 	
-	We have send them a PR and added a missing feature as stated above in "Missing important feature" section. Recently their reviewer [replied](https://bugzilla.mozilla.org/show_bug.cgi?id=1228089#c7) and said : 
+  We have send them a PR and added a missing feature as stated above in "Missing important feature" section. Recently their reviewer [replied](https://bugzilla.mozilla.org/show_bug.cgi?id=1228089#c7) and said : 
 	
-	"LGTM. Thanks :rawisa 
+  "LGTM. Thanks :rawisa 
 
-	Sorry it took me so long to get around to it. It got lost in my review queue."
+  Sorry it took me so long to get around to it. It got lost in my review queue."
 
-	LGTM AKA Looks good to me. Which means they will merge my PR soon ;)
+  LGTM AKA Looks good to me. Which means they will merge my PR soon ;)
 	
 	
 	
-	A summary presentation can be found [HERE](Firefox IOSp.pptx)
+  A summary presentation can be found [HERE](Firefox IOSp.pptx)
 	

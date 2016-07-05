@@ -152,7 +152,7 @@ General detailed code structure can be found at (note: this code structure are f
  
  ## UML - Sequence diagram
  
- The following sequence diagram shows the important part of any webbrowser and how it works, how the MVC works in firefox:
+ The following sequence diagram shows the important part of any webBrowser’s functionality and the processes it should execute to achieve its goal. It also shows how the MVC works in firefox:
  
  ![](firefox-sequence.png)
 

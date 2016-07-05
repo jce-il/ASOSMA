@@ -161,11 +161,11 @@ General detailed code structure can be found at (note: this code structure are f
  
 ## Missing important feature
   
-  According to [bugzilla](https://bugzilla.mozilla.org). Firefox is missing an important feature which filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089. The feature is: "Detect if the user has a URL in their clipboard when re-entering the app", The browser currently checks if there is copied URL only when the app opens for the first time and not when the app goes background -> user copies URL -> enters the browser again.
+  According to [bugzilla](https://bugzilla.mozilla.org), Firefox is missing an important feature which is filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089. The feature is: "Detect if the user has a URL in their clipboard when re-entering the app", The browser currently checks if there is a copied URL only when the app opens for the first time and not when the app goes to the background which means that the user must copy the URL -> and enter the browser again.
   
-  At it is recommended for the new contributers to add that features.
+  It is recommended for the new contributors to add that feature.
   
-  Following [Swift style]( https://github.com/raywenderlich/swift-style-guide) which was recommended by firefox. We added the new feature, and created a pull request and attached it on there bugzilla site according to there [guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+  Following the [Swift style]( https://github.com/raywenderlich/swift-style-guide) which was recommended by firefox. We added the new feature, and created a pull request and attached it on their bugzilla site according to the [guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
   
   * [Forked repo.](https://github.com/rawisa/firefox-ios)
   * [PR](https://github.com/mozilla/firefox-ios/pull/1889) For the missing feature.

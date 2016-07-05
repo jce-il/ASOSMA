@@ -3,7 +3,7 @@
 <!-- -->
 <!-- -->
 
-![Video.js logo](http://videojs.com/img/logo.png)
+![Video.js logo](https://www.drupal.org/files/project-images/aee1538.jpg)
 ##[Video.js - HTML5 Video Player WebSite](http://videojs.com)
 ##[Video.js - Github Repo](https://github.com/videojs/video.js)
 <!-- -->
@@ -61,11 +61,13 @@ This is a software library and that the reason that the all stackholders are dev
 Brightcove is the main sponsor of the project, employing many of the core members and investing thousands of engineering hours every year in video.js and video.js plugins.
 
 The Brightcove Player is built on video.js and used on thousands of video websites, ensuring video.js can handle the most professional use cases.
-![enter image description here](http://videojs.com/img/brightcove.png)
-
+<!-- -->
+![](http://nordicapis.com/wp-content/uploads/brightcove-logo-horizontal-grey-2012.png)
+<!-- -->
 **CDN Sponsor**
-
-![enter image description here](http://videojs.com/img/fastly.png)
+<!-- -->
+![](https://d1qb2nb5cznatu.cloudfront.net/startups/i/49096-0f814ad4d06ef6ffd2888d7cdf618363-medium_jpg.jpg?buster=1396462482)
+<!-- -->
 ###	***Users***
 <!-- -->
 ***Zencoder*** - Also is the most active developer of Video.js
@@ -276,6 +278,25 @@ Type of extensions:
  - [Plugins](http://docs.videojs.com/docs/guides/plugins.html) - *any functionality writeen could be registered as Video.JS plugin , also can be used a plugin generator tool (this tool includes Build , Installation System and Testing support)*
  - 
 
+####	***Code Metrics***
+Submitting the Video.js library to CodeClimate online Analyzing engine produced a fine badge of 1.99GPA, which is their own scale of quality.
+<!-- -->
+![](CodeClimateGPA.PNG)
+<!-- -->
+![](ChurnGraph.PNG)
+
+Most of the issues found are in the large peaces of code (like player.js & component.js) and are focused around code complexity and duplication.
+<!-- -->
+**Video.js**
+<!-- -->
+![](PlayerIssues.PNG)
+<!-- -->
+**Few issues**
+<!-- -->
+[![](Code.PNG)](https://codeclimate.com/github/harella1/video.js/src/js/player.js)
+<!-- -->
+[![Code Climate](https://codeclimate.com/github/harella1/video.js/badges/gpa.svg)](https://codeclimate.com/github/harella1/video.js)
+[![Issue Count](https://codeclimate.com/github/harella1/video.js/badges/issue_count.svg)](https://codeclimate.com/github/harella1/video.js)
 
 ##	Conclusions and Recommendations
 * Code comments and design documents missing

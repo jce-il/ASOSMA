@@ -48,20 +48,20 @@ They can find the list of bugs that need to be fixed at the following URL links:
 * Another AOSA project: http://aosabook.org/en/ffreleng.html
 
 
-# Statics
+# Statistics
 
 
-**The weekly commits:**
+**The weekly commits graph:**
 ![](commit-cont.png)
 [Reference](https://github.com/mozilla/firefox-ios/graphs/commit-activity)
 
 
-**Notice the high code change frequency:**
+**Notice the high frequency change in the code change by observing the following graph:**
 ![](code-freq-statics.png)
 [Reference](https://github.com/mozilla/firefox-ios/graphs/code-frequency)
 
 
-Looking at the following release frequency, one can understand that firefox uses the agile method.
+By looking at the following release frequency, one can understand that firefox uses the agile developing method.
 Also according to [itbusinessedge](http://www.itbusinessedge.com/cm/blogs/all/mozilla-takes-hybrid-approach-to-agile-software-development/?cs=38988):
 "Mozilla has also begun using a hybrid model that incorporates elements of both agile and waterfall approaches for its flagship Firefox Web browser. The goal is to more quickly introduce new features -- aided by agile's emphasis on iterative releases -- while maintaining backward compatibility, security and overall code quality.".
 ![](release-statics.png)
@@ -70,7 +70,7 @@ Also according to [itbusinessedge](http://www.itbusinessedge.com/cm/blogs/all/mo
 
 
 
-Firefox has bugs/features list in their [issues](https://github.com/mozilla/firefox-ios/issues) in github:
+Firefox keeps its bugs/features list in their [issues](https://github.com/mozilla/firefox-ios/issues) in github:
 ![](issues.png)
 [Reference](https://github.com/mozilla/firefox-ios/issues)
 

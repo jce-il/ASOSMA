@@ -76,12 +76,12 @@ Firefox keeps its bugs/features list in their [issues](https://github.com/mozill
 
 ## Contributor guidelines
 
-Using Firefox official site [Bugzilla](https://bugzilla.mozilla.org/). Developers can find a list of bugs in firefox
-All developers must follow the following Swift style to keep the code orginized: https://github.com/raywenderlich/swift-style-guide.
+Using Firefox’s official site [Bugzilla](https://bugzilla.mozilla.org/), developers can find a list of bugs in the firefox code.
+All developers must follow the following Swift style to keep the code organized: https://github.com/raywenderlich/swift-style-guide.
 
-With small * Exception: they use 4-space indentation instead of 2.
+Adding small * Exceptions like: they use 4-space indentation instead of 2.
 
-Further info can be found at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+Further information can be found at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
 
 
 ## General source code structure

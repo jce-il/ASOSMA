@@ -14,9 +14,9 @@ Stage 0:
 
 ## Introduction
 
-Firefox for iOS is a browser from Mozilla, for the Apple iPhone, iPad and iPod touch mobile devices.
-It is the first Firefox branded browser to not use the Gecko layout engine as is used in Firefox for desktop and mobile. Due to Apple's application review policies, Firefox uses the built-in iOS WebKit-based rendering framework instead of Gecko.
-Firefox for iOS supports Firefox Sync and is able to sync Firefox's browsing history, bookmarks, and recent tabs.
+Firefox IOS is a browser from Mozilla for the Apple iPhone, iPad and iPod touch mobile devices.
+It is the first Firefox brand browser to not use the Gecko layout engine that is commonly used in Firefox for desktop and mobile devices that are not IOS based. Due to Apple's application review policies, Firefox had to use the built-in IOS WebKit-based rendering framework instead of its own Gecko.
+Firefox IOS supports Firefox Sync which makes it able to sync Firefox's browsing history, bookmarks, and recent tabs.
 
 ## Architecture
 

@@ -86,10 +86,10 @@ Further information can be found at [Firefox-ios contributor guidelines](https:/
 
 ## General source code structure
 
-Firefox seperates code to packages to keep everything orginized to help developers add/fix features with an ease.
-The following figure shows the code structure, one can see there is packages for : Account, Client, Extensions, etc... 
-For most packages there is a corresponding package for tests:  AccountTest, ClientTest, etc... . That way if firefox-developers or external-contributers do changes, they dont break the browser functionality.
-general detailed code structure can be found at (note: this code structure are for windows, but its the same for all platforms in general):
+Firefox separates the code to packages to keep everything organised to help developers add/fix features with ease.
+The following figure shows the code structure, we can see that there are packages for : Account, Client, Extensions, etc... 
+For most packages there is a corresponding package for tests:  AccountTest, ClientTest, etc... . That way if firefox-developers or external-contributors make changes to the code, they wouldn’t break the browser’s functionality.
+General detailed code structure can be found at (note: this code structure are for windows, but its the same for all platforms in general):
 * https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
 * http://codefirefox.com/video/source-structure
 

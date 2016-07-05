@@ -179,17 +179,17 @@ General detailed code structure can be found at (note: this code structure are f
 </p>  
   
   Firefox uses circleci for continuous integration. CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp quickly, scale easily, and build confidently every day.
-  Over 100,000 companies uses circleci, such as: Facebook, Kickstarter, Spotify, GoPro, etc...
+  Over 100,000 companies use circleci, such as: Facebook, Kickstarter, Spotify, GoPro, etc...
   
   ![](companies.png)
   
-  circleci can be easily installed, run tests and automatically have each successful build on master be pushed to any deployment host.
+  CircleCI can be easily installed, runs tests and automatically have each successful build on the master be pushed to any deployment host.
   
-  For the PR we made it took circleci about 10 minutes to run all the tests by mainly running the following command which executes all the tests in the project:
+  For the PR we made it took CircleCI about 10 minutes to run all the tests by mainly running the following command which executes all the tests in the project:
  
   **"set -o pipefail && xcodebuild CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64" -destination 'platform=iOS Simulator,name=iPhone 4s,OS=9.3' -sdk iphonesimulator -project 'Client.xcodeproj' -scheme "FennecCI" clean build test | tee $CIRCLE_ARTIFACTS/xcode_raw.log"**
   
-  It ran 263 tests in xcode with 0 failures. When the tests finishes it shows a green arrow on the PR to verify that our build passed all tests:
+  It ran 263 tests in XCode with 0 failures. When the tests finished, it showed a green arrow on the PR to verify that our build passed all tests:
   
   ![](our-pr.png)
   
@@ -202,22 +202,22 @@ General detailed code structure can be found at (note: this code structure are f
 <img src="codebeatlogo.png">
 </p>
   
-  Codebeat gives instant feedback on the code. It is Automated code review for Swift, Ruby, Go, etc... 
+  Codebeat gives instant feedback on the code. It is an automated code review for Swift, Ruby, Go, etc... 
   
-  codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.
+  Codebeat gathers the results of the code analysis into a single, real-time report that gives all project stakeholders the information required to improve their code’s quality.
   
   Firefox has a *3.02 GPA*, *B* grade according to Codebeat [![codebeat badge](https://codebeat.co/badges/67e58b6d-bc89-4f22-ba8f-7668a9c15c5a)](https://codebeat.co/projects/github-com-mozilla-firefox-ios)
   
-  Codebeat report comes with a number that can range from 0 (worst) to 4 (best). Codebeat explains how [Calculating GPAs](https://hub.codebeat.co/docs/gpa-explained#calculating-gpas).
+  Codebeat report comes with a number that can range from 0 (worst) to 4 (best). Codebeat explains how it [calculates the GPAs](https://hub.codebeat.co/docs/gpa-explained#calculating-gpas).
   
-  According for firefox-ios's codebeat https://codebeat.co/projects/github-com-mozilla-firefox-ios . They have many problems in a class called "BrowserViewController.swift":
+  According to firefox-ios's codebeat https://codebeat.co/projects/github-com-mozilla-firefox-ios , they have many problems in a class called "BrowserViewController.swift":
   
   * Too many methods - 198 methods
   * Too many instance variables - 32 instance variables
-  * Namespace too long - 2344 lines of code
-  * Total complexity too high - complexity = 1312
+  * Namespaces are too long - 2344 lines of code
+  * Total complexity is too high - complexity = 1312
   
-  And have a code duplication in *"Client/Frontend/Browser/BrowserTrayAnimators.swift:205...217"* and *"Client/Frontend/Browser/BrowserTrayAnimators.swift:219...231"* .
+  And there is a code duplication in *"Client/Frontend/Browser/BrowserTrayAnimators.swift:205...217"* and *"Client/Frontend/Browser/BrowserTrayAnimators.swift:219...231"* .
   
   ![](codeBeat1.png)
   
@@ -234,7 +234,7 @@ General detailed code structure can be found at (note: this code structure are f
   
   * [Number of functions](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions) : 
   
-  Number of functions is another high-level complexity metric. It is designed to encourage smart composition and modularity instead of refactoring code by multiplying private methods. We believe that a namespace with more than 15 (private and public) functions is a good candidate for breaking up into multiple independent modules each with it's own set of data.
+  Number of functions is another high-level complexity metric. It is designed to encourage smart composition and modularity instead of refactoring code by multiplying private methods. We believe that a namespace with more than 15 (private and public) functions is a good candidate for breaking up into multiple independent modules each with its own set of data.
   
   
   * [Number of instance variables](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions) : 

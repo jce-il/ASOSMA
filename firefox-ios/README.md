@@ -36,12 +36,12 @@ Firefox IOS supports Firefox Sync which makes it able to sync Firefox's browsing
 
 ## Resources 
 
-Firefox is an open-source browser, users around the world help to improve it.
+Firefox is an open-source browser which means that users around the world are able to help improve it.
 Contributers can communicate through: 
 * IRC:            [#mobile](https://wiki.mozilla.org/IRC) for general discussion and [#mobistatus](https://wiki.mozilla.org/IRC) for team status updates.
 * Mailing list:   [mobile-firefox-dev@mozilla.org](https://mail.mozilla.org/listinfo/mobile-firefox-dev).
 
-They can find the bugs that need to be fixed at the following list:
+They can find the list of bugs that need to be fixed at the following URL links:
 
 * Bugs:           [File a new bug](https://bugzilla.mozilla.org/enter_bug.cgi?bug_file_loc=http%3A%2F%2F&bug_ignored=0&op_sys=iOS%20&product=Firefox%20for%20iOS&rep_platform=All) • [Existing bugs](https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox%20for%20iOS) 
 

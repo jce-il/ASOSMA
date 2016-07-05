@@ -101,38 +101,38 @@ General detailed code structure can be found at (note: this code structure are f
 ## Stakeholder view
 * **Communicators**:
 
- are the people that provide documentation for the users and administrators of the system.
+ are the people that provide documentation of the system for the users and administrators.
  Furthermore they may provide training for staff or the development team.
- Often communicators promote the product by communicating the product's key features and benefits to other stakeholders.
+ Communicators often promote the product by sharing the product's key features and benefits to other stakeholders.
 
- Firefox is a global webbrowser, They have a "Mobilizers" community. Mobilizers are tech/geek enthusiasts that are committed to spreading Firefox OS, Mozilla's new mobile product. Mobilizers receive periodic missions asking them to do a simple action to teach others about the new Firefox OS. Mobilizers will also attend, assist or host events in their market about once a month [Reference](https://wiki.mozilla.org/FirefoxOS/Community/Mobilizers).
+ Firefox is a global webBrowser, They have a "Mobilizers" community. Mobilizers are tech/geek enthusiasts that are committed to spreading Firefox OS and other new Mozilla mobile products. Mobilizers receive periodic missions asking them to do a simple action to teach others about the new Firefox OS. Mobilizers will also attend, assist or host events in their market about once a month [Reference](https://wiki.mozilla.org/FirefoxOS/Community/Mobilizers).
 
 * **Developers**:
 
- are responsible for the implementation and deployment from the systems' specification.
+ are responsible for the implementation and deployment of the systems' specification.
  That is: design, code, test and accept.
- Their concerns lie with the platform used, programming languages for writing code, tools used, dependencies needed, as well as the maintainability and flexibility of the system.
+ Their concerns lie with the platform that is being used, programming languages for writing code, tools used, dependencies needed, as well as the maintainability and flexibility of the system.
 
- The most active and notable developers at this moment are: Stefan Arentz, Brian Nicholson, Stephan Leroux and Richard Newman. These developers create pull requests with new features or fixes (Stefan Arentz does only fixes for bugs). It is important to note that these are not the only developers working on the firefox project. The most core team can be found at [Firefox-team](https://wiki.mozilla.org/Firefox/Team/whois).
+ The most active and notable developers at this moment are: Stefan Arentz, Brian Nicholson, Stephan Leroux and Richard Newman. These developers create pull requests with new features or fixes (Stefan Arentz only fixes bugs). It is important to note that these are not the only developers working on the firefox project. The relevant core team can be found at [Firefox-team](https://wiki.mozilla.org/Firefox/Team/whois).
 
 
 * **Testers**:
 
- test the system to ensure that it works exactly the way it was intended to work.
+ are the ones that test the system to ensure that it works exactly the way it is intended to work.
  
- [Stephan Leroux](https://github.com/sleroux) and [Brian Nicholson](https://github.com/thebnich), contribute the most to the tests, code tests, UI tests, etc... 
+ [Stephan Leroux](https://github.com/sleroux) and [Brian Nicholson](https://github.com/thebnich) contribute the most to the tests, code tests, UI tests, etc... 
 
 * **Funders**:
 
  Funders give money to the project to keep it alive.
  
- One of the best money incoming for firefox are the search engines such as Google, who pays firefox to make Google search engine as the default search engine for firefox.
+ One of the best money income for firefox is using the search engines such as Google. Google funds firefox by paying it to make Google search engine as the default search engine for firefox.
  
 * **Users**:
  
  define the system's functionality and use it once it has been deployed.
  
- Users use the browser to surf the internet, they expect it to be fast, and wait for new updates for bug fixes or new feature to fully enjoy surfing the internet.
+ Users use the browser to surf the internet, they expect it to be fast, and wait for new updates for bug fixes or new features to fully enjoy surfing the internet.
  
 * **Development team**:
  * Product Manager: Jen Bertsch
@@ -144,7 +144,7 @@ General detailed code structure can be found at (note: this code structure are f
  * Foundation stakeholder: Andrea Wood
  * Advocacy stakeholder: Jochai Ben-Avie
  * Legal: Mika Devi
- * Web dev: Craig Cook
+ * Web development: Craig Cook
  * Analytics: Gareth C
  * L10N: Flod, Pascal Chevrel
  

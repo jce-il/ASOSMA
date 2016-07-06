@@ -254,12 +254,12 @@ General detailed code structure can be found at (note: this code structure are f
   
   **Firefox 4:**
   
-  Firefox presented a Sync 1.0, which creates a unique secret key, which was used to encrypt and decrypt all your data. And the only way to get the data was to know that key.
+  Firefox presented a Sync 1.0 functionality which creates a unique secret key that is used to encrypt and decrypt all your data. And the only way to get the data was to know that key.
   
   
   **Problems with Sync 1.0**
   
-  If you lose your only device, you probably also lost the only copy of your secret key, and without that key, there was no way to recover your Sync data.
+  If you loose your only device, you probably also lost the only copy of your secret key, and without that key, there is no way to recover your Sync data.
   
   
   **Firefox 29:**
@@ -267,8 +267,8 @@ General detailed code structure can be found at (note: this code structure are f
   features a brand new Firefox Sync experience that is much easier to use while maintaining the high standard of safety, security, and openness that a user expects from Mozilla.  
   
   The security goals remain the same: there is still a strong random secret key, and Mozilla’s servers cannot decrypt your data.
-  However, instead of using pairing, a “wrapped” version of your secret key, protected by your password, is stored alongside your Firefox Account.
-  This means you can recover all your data, even if you lose all your devices at the same time.
+  However, instead of using pairing, a “wrapped” version of your secret key is protected by your password and is stored alongside your Firefox Account.
+  This means that you can recover all your data, even if you lose all your devices at the same time.
   Setting up a new device only requires typing your Firefox Account email and password into it.
 
   

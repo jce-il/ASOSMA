@@ -14,9 +14,9 @@ Stage 0:
 
 ## Introduction
 
-Firefox IOS is a browser from Mozilla for the Apple iPhone, iPad and iPod touch mobile devices.
-It is the first Firefox brand browser to not use the Gecko layout engine that is commonly used in Firefox for desktop and mobile devices that are not IOS based. Due to Apple's application review policies, Firefox had to use the built-in IOS WebKit-based rendering framework instead of its own Gecko.
-Firefox IOS supports Firefox Sync which makes it able to sync Firefox's browsing history, bookmarks, and recent tabs.
+Firefox iOS is a browser from Mozilla for the Apple iPhone, iPad and iPod touch mobile devices.
+It is the first Firefox brand browser to not use the Gecko layout engine that is commonly used in Firefox for desktop and mobile devices that are not iOS based. Due to Apple's application review policies, Firefox had to use the built-in iOS WebKit-based rendering framework instead of its own Gecko.
+Firefox iOS supports Firefox Sync which makes it able to sync Firefox's browsing history, bookmarks, and recent tabs.
 
 ## Architecture
 
@@ -27,7 +27,7 @@ Firefox IOS supports Firefox Sync which makes it able to sync Firefox's browsing
 [Reference](http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674)
 
 
-**Firefox’s** architecture can be presented as seen in the following bottom figure, however, as mentioned before, because of Apple’s policies they had to use the built-in IOS WebKit instead of Gecko.
+**Firefox’s** architecture can be presented as seen in the following bottom figure, however, as mentioned before, because of Apple’s policies they had to use the built-in iOS WebKit instead of Gecko.
 
 ![](firefox-diagram.jpg)
 
@@ -274,7 +274,7 @@ General detailed code structure can be found at (note: this code structure are f
   
 ## Conclusion
 	
-  Firefox is one of the many popular browsers for both IOS and any other platform. It has many challenges to overcome to make sure users use the Firefox browser and not its competitors. 
+  Firefox is one of the many popular browsers for both iOS and any other platform. It has many challenges to overcome to make sure users use the Firefox browser and not its competitors. 
 	
   They work using the agile method to make sure all bugs and small missing features are added/fixed in a short amount of time. They keep their code organised so people can contribute with ease.
 	

@@ -26,14 +26,6 @@ title: Azrieli Students On Software Modeling and Architecture
   * [Readme](VideoJs/README.md)
 * [Firefox-ios](firefox-ios):
   * [Readme](firefox-ios/README.md)  
-* Sample: [Jekyll](jekyll/)
-  * [Introduction](jekyll/#Introduction)
-  * [Stakeholder Analysis](jekyll/#stakeholder-analysis)
-  * [Placing Jekyll into Context](jekyll/#placing-jekyll-into-contex)
-  * [Developer's Perspective](jekyll/#developers-perspective)
-  * [Variability in Jekyll](jekyll/#variability-in-jekyll)
-  * [Improving Jekyll's Performance](jekyll/#improving-jekylls-performance)
-  * [Conclusions and Recommendations](jekyll/#conclusions-and-recommendations)
 
 ## Introduction
 

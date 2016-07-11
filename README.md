@@ -2,8 +2,7 @@
 title: Azrieli Students On Software Modeling and Architecture
 ---
 
-# ASOSMA 2016
-
+# [ASOSMA 2016][ASOSMA.io]
 
 **[robi-y].**<br/>
 **Software Engineering Department**
@@ -35,25 +34,28 @@ Azrieli Students On Software Modeling and Architecture is a collection of modeli
 
 Teams of students could adopt a project of choice on GitHub. The projects selected had to be sufficiently complex and actively maintained.
 
-Inspired by Brown and Wilsons' [Architecture of Open Source Applications][aosa], and the [desosa] book, each description appears as a chapter, resulting in the present online book.
+Inspired by Brown and Wilsons' [Architecture of Open Source Applications][aosa], and the [DESOSA] 2015 book, each description appears as a chapter, resulting in the present online book.
 
+[desosa]: http://delftswa.github.io/
+
+<!--
 ## Recurring Themes
 
-
 ## First-Hand Experience
+-->
 
 ## Feedback
 
 While we worked hard on the chapters to the best of our abilities, there will be plenty of omissions and inaccuracies.
 We value your feedback on any of the material in the book. For your feedback, you can:
 
-* Open an issue on our [GitHub repository for this book][ASOSMA.io].
+* Open an issue on our [GitHub repository for this book][ASOSMA].
 * Offer an improvement to a chapter by posting a pull request on our [GitHub repository][ASOSMA].
 * ~~Contact @[ASOSMA][ASOSMA.tw] on Twitter.~~
 * Send an email to the lecturer
 
 [ASOSMA]: https://www.github.com/jce-il/ASOSMA
-[ASOSMA.io]: https://jce-il.github.io/ASOSMA
+[ASOSMA.io]: http://jce-il.github.io/ASOSMA/README.html
 [ASOSMA.tw]: https://twitter.com/ASOSMA
 
 
@@ -81,10 +83,9 @@ We would like to thank:
 ## Copyright and License
 
 The copyright of the chapters is with the authors of the chapters. All chapters are licensed under the [Creative Commons Attribution 4.0 International License][cc-by].
-Reuse of the material is permitted, provided adequate attribution (such as a link to the chapter on the [book site][ASOSMA]) is included.
+Reuse of the material is permitted, provided adequate attribution (such as a link to the chapter on the [book site][ASOSMA.io]) is included.
 
 
 [![Creative Commons](cc-by.png)][cc-by]
 
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
-[ASOSMA]: https://github.com/jce-il/ASOSMA

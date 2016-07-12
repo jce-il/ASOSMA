@@ -59,3 +59,7 @@ pdf:
 	 index.md \
 	 $(CHAPTERS_MD)
 
+jgd:
+
+site:
+    git subtree push --prefix _site origin gh-pages

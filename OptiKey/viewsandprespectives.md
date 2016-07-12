@@ -1,3 +1,10 @@
+---
+layout: default
+project: OptiKey
+title: OptiKey
+chapter: false
+---
+
 # Views and prespectives 
 
 ## OptiKey Fork

@@ -1,6 +1,14 @@
+---
+layout: default
+project: BeEF
+title: BeEF
+chapter: true
+permalink: /BeEF/
+---
+
 [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
 
-# ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/beef.png) The BeEF Project 
+# ![](./beef.png) The BeEF Project 
 
  Authors:  Sarah Gabriel,([SarahGabriel](https://github.com/SarahGabriel))
                 Ran Itzhaki ([ranitz](https://github.com/ranitz)), 
@@ -26,10 +34,10 @@
   The framework works with a client server architecture and different usage patterns level. The actors are mainly the user interface which is the control interface for using BeEF and the communication server. From the interface a user can see all online and offline browsers, run exploits against them and see the results while the communication server is the component that communicates via HTTP with the hooked browsers. The following high level diagrams are from the BeEF [wiki](https://github.com/beefproject/beef/wiki/Architecture)  
   
   
- ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/Pattern1.png)  
+ ![](./Pattern1.png)  
  
  
-  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/highLevel.png)
+  ![](./highLevel.png)
   
 #### Ressources
   
@@ -47,14 +55,14 @@
 #### Graphs and Statistics
 
 **Contributions to master:**  (https://github.com/beefproject/beef/graphs/contributors)   
-![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/ContributionToMaster.PNG)  
+![](./ContributionToMaster.PNG)  
 
 **Weekly Commits:** (https://github.com/beefproject/beef/graphs/commit-activity)
-![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/WeeklyCommits.PNG) 
+![](./WeeklyCommits.PNG) 
 
  **Bug/Features list in the [issues](https://github.com/beefproject/beef/issues) section on github:**  (bugs/features are tagged according to their importance and type) 
   
-  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/bugs_featuresList.png)
+  ![](./bugs_featuresList.png)
 
 #### Why did we choose BeEF ?
 
@@ -87,7 +95,7 @@ The code is built in a modular way so creating new modules and adding them to Be
 Ruby code main classes:
 
 
-![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic1.png)
+![](./pic1.png)
 
 
 ####**The Stakeholders**
@@ -95,7 +103,7 @@ The BeeF project comprises a large community of dozens of software engineers, de
 As it can be seen from the following figures the 2 leading contributors are contributing to other projects that are also dealing with the information security field. 
 
 
-![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic2-stakeholders.png)
+![](./pic2-stakeholders.png)
 
 
 We can classify the prominent stockholders into 3 groups:
@@ -110,7 +118,7 @@ There is a certain group of developers that is continuously contributing to impr
 Suggesting new module to Beef Process:
 
 
-![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic3-Developers.png)
+![](./pic3-Developers.png)
 
 **Users**
 
@@ -126,12 +134,12 @@ Since the BeeF project is dependent on their users to use the system to assess t
 
    **usecase diagram -**
 
- ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/use%20login%20tracker.png)
+ ![](./use%20login%20tracker.png)
 
 
  **sequence diagram -**
  
- ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/sequence%20diagram%20login.png)
+ ![](./sequence%20diagram%20login.png)
 
 
 **description RESTful API sequence diagram :** In order to use the API, a token parameter must be always added to requests
@@ -213,7 +221,7 @@ BeEF can be configured to be integrated with Metasploit.
 
 #### **The applicability of a design metric tool to the project code**
 
-![](https://github.com/michalseneor/ASOSMA/blob/master/BeEF/codebeat.jpg)  
+![](./codebeat.jpg)  
 
 We have decided to analyze BeEf project’s code with a design metric tool named CodeBeat. 
 
@@ -221,13 +229,13 @@ Codebeat gives instant feedback on the code. It is Automated code review for Swi
 codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.  
 BeEF has a 2.14 GPA _(a number which ranges from 0-worst to 4-best)_, C grade according to Codebeat. [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
   
-![](https://github.com/rivkage/ASOSMA/blob/master/git_grade.PNG)  
+![](./git_grade.PNG)  
 
                                  
 
 CodeBeat presents to us a list of critical issues that should improve our GPA score significantely. Most of these hot spots are similar code or even identical in 2 places.
 According to [BeEF’s codebeat](https://codebeat.co/projects/github-com-beefproject-beef),they have many problems in a class called CommandDispatcher ::Core .   
-![](https://github.com/rivkage/ASOSMA/blob/master/git_errors.PNG)  
+![](./git_errors.PNG)  
 
 ###**Qualities of product**
 
@@ -248,7 +256,7 @@ It supports all browsers.
 2.	Confirm Close Tab
 When a user wants to close a tab, a confirm dialog appears. If “yes” is clicked, the window is re-display till the user clicks “no”
 All browsers are supported expect Opera.
-![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/save.png)
+![](./save.png)
 
 3.	Create Foreground iFrame
 This module will rewrite all the links in the webpage to avoid leaving the current page. Instead, the module will load the target URL in a 100% foreground iframe. Stealth but the URL still does not change !

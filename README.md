@@ -1,7 +1,13 @@
 ---
-title: Azrieli Students On Software Modeling and Architecture
+layout: default
+title: Azrieli Students On Software Modeling and Architecture -- ASOSMA 2016
+overview: true
+permalink: /index.html
+creator: 
+- role: Editor
+- text: robi-y
+date: July 2016, Version 1.0
 ---
-
 # [ASOSMA 2016][ASOSMA.io]
 
 **[robi-y].**<br/>
@@ -10,6 +16,7 @@ title: Azrieli Students On Software Modeling and Architecture
 
 [robi-y]: https://github.com/robi-y
 
+<!--
 ## Table of Contents
 
 * [Introduction](#Introduction)
@@ -25,6 +32,7 @@ title: Azrieli Students On Software Modeling and Architecture
   * [Readme](VideoJs/README.md)
 * [Firefox-ios](firefox-ios):
   * [Readme](firefox-ios/README.md)  
+-->
 
 ## Introduction
 
@@ -78,7 +86,7 @@ We value your feedback on any of the material in the book. For your feedback, yo
 * Send an email to the lecturer (on [course][sw-modeling-2016b] syllabus).
 
 [ASOSMA]: https://www.github.com/jce-il/ASOSMA
-[ASOSMA.io]: http://jce-il.github.io/ASOSMA/README.html
+[ASOSMA.io]: http://jce-il.github.io/ASOSMA
 [ASOSMA.tw]: https://twitter.com/ASOSMA
 
 

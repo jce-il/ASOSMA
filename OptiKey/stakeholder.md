@@ -1,3 +1,9 @@
+---
+layout: default
+project: OptiKey
+title: OptiKey
+chapter: false
+---
 ## Stakeholders analysis
 OptiKey uses a Low cost certificate for Open Source projects from www.certum.eu wich is one of the main resource available for quick and low cost for a customers production key and certificat . 
 

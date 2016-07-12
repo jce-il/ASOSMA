@@ -8,6 +8,15 @@ author:
 github:
   url: "https://github.com/jce-il/ASOSMA"
 
+#highlighter: pygments
+relative_permalinks: false
+
+timezone: UTC+2
+#include: [chapters/]
+exclude: ['Makefile']
+
+# Server settings
+host: 0.0.0.0
 
 ########
 # more settings
@@ -20,8 +29,7 @@ kramdown:
   syntax_highlighter: rouge
   auto_ids: true # Auto-generate ID's for headings
 
-sass:
-  sass_dir: css
-  style:    expanded
 
-include: [jekyll/]
+#include: [jekyll/]
+
+

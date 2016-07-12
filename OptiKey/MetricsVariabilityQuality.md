@@ -1,3 +1,10 @@
+---
+layout: default
+project: OptiKey
+title: OptiKey
+chapter: false
+---
+
 #Metrics, Variability and Quality Measures
 
 ##OptiKey - coping with the pace 

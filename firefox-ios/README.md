@@ -1,3 +1,10 @@
+---
+layout: default
+project: firefox-ios
+title: firefox-ios
+chapter: true
+permalink: /firefox-ios/
+---
 
 ## firefox-ios - Class Project
 

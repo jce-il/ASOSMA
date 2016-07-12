@@ -1,3 +1,11 @@
+---
+layout: default
+project: Video.js
+title: Video.js
+chapter: true
+permalink: /Video.js/
+---
+
 <!-- -->
 <!-- -->
 <!-- -->
@@ -281,19 +289,19 @@ Type of extensions:
 ####	***Code Metrics***
 Submitting the Video.js library to CodeClimate online Analyzing engine produced a fine badge of 1.99GPA, which is their own scale of quality.
 <!-- -->
-![](CodeClimateGPA.PNG)
+![](./CodeClimateGPA.PNG)
 <!-- -->
-![](ChurnGraph.PNG)
+![](./ChurnGraph.PNG)
 
 Most of the issues found are in the large peaces of code (like player.js & component.js) and are focused around code complexity and duplication.
 <!-- -->
 **Video.js**
 <!-- -->
-![](PlayerIssues.PNG)
+![](./PlayerIssues.PNG)
 <!-- -->
 **Few issues**
 <!-- -->
-[![](Code.PNG)](https://codeclimate.com/github/harella1/video.js/src/js/player.js)
+[![](./Code.PNG)](https://codeclimate.com/github/harella1/video.js/src/js/player.js)
 <!-- -->
 [![Code Climate](https://codeclimate.com/github/harella1/video.js/badges/gpa.svg)](https://codeclimate.com/github/harella1/video.js)
 [![Issue Count](https://codeclimate.com/github/harella1/video.js/badges/issue_count.svg)](https://codeclimate.com/github/harella1/video.js)

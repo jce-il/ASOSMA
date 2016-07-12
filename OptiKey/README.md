@@ -1,3 +1,11 @@
+---
+layout: default
+project: OptiKey
+title: OptiKey
+chapter: true
+permalink: /OptiKey/
+---
+
 ![certum Logo](images/logo.png)
 <!-- -->
 
@@ -14,13 +22,13 @@
     - [Ilan Matityahoo](https://github.com/ilanMatityahoo)
 
 Following is the introduction to OptiKey: 
-[Introduction](https://github.com/adirel/ASOSMA/blob/master/OptiKey/Introduction.md)
+[Introduction](./Introduction.md)
 
 Here are some views and prespectives on the system: 
-[Views and prespectives](https://github.com/adirel/ASOSMA/blob/master/OptiKey/viewsandprespectives.md)
+[Views and prespectives](./viewsandprespectives.md)
 
-[Metrics , Variability and Quality](https://github.com/adirel/ASOSMA/blob/master/OptiKey/MetricsVariabilityQuality.md)
+[Metrics , Variability and Quality](./MetricsVariabilityQuality.md)
 
-[OptiKey presentation](https://github.com/adirel/ASOSMA/blob/master/OptiKey/ASOSNA - OptiKey.pptx)
+[OptiKey presentation](./ASOSNA - OptiKey.pptx)
 
 

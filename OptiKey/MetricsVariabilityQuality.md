@@ -22,7 +22,7 @@ These are typically more than enough for OptiKey to run flawlessly.
 
 
 
-## Qualities Handling
+## Qualities Handling and System  requirements
 OptiKey is an assistive on-screen keyboard which runs on Windows only.
 
 It is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND).

@@ -8,6 +8,9 @@ author:
 github:
   url: "https://github.com/jce-il/ASOSMA"
 
+#url: "https://github.com/jce-il/ASOSMA"
+#baseurl: /ASOSMA
+
 #highlighter: pygments
 relative_permalinks: false
 
@@ -16,11 +19,11 @@ timezone: UTC+2
 exclude: ['Makefile']
 
 # Server settings
-host: 0.0.0.0
+#host: 0.0.0.0
 
 ########
 # more settings
-#baseurl: "/" 
+baseurl: "/" 
 
 markdown: kramdown
 kramdown:

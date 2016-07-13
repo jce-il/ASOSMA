@@ -42,9 +42,10 @@ Azrieli Students On Software Modeling and Architecture is a collection of modeli
 
 Teams of students could adopt a project of choice on GitHub. The projects selected had to be sufficiently complex and actively maintained.
 
-Inspired by Brown and Wilsons' [Architecture of Open Source Applications][aosa], and the [DESOSA] 2015 book, each description appears as a chapter, resulting in the present online book.
+Inspired by Brown and Wilsons' [Architecture of Open Source Applications][aosa], and the [DESOSA] 2015 book (update: this is a newer [desosa2016] version), each description appears as a chapter, resulting in the present online book.
 
 [DESOSA]: http://delftswa.github.io/
+[desosa2016]: https://delftswa.gitbooks.io/desosa2016/content/
 
 ## Recurring Themes
 

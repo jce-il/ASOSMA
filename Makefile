@@ -62,4 +62,6 @@ pdf:
 jgd:
 
 site:
+    jekyll build
+    git commit & push ? delete origin/gh-pages?
     git subtree push --prefix _site origin gh-pages

@@ -67,6 +67,8 @@ A third recurring theme is _variability management_. Many of today's software sy
 
 A fourth theme is [metrics-based evaluation of software architectures][bouwers]. Using such metrics architects can discuss  (desired) quality attributes (performance, scaleability, maintainability, …) of a system quantitatively. Therefore various chapters discuss metrics and in some cases actual measurements tailored towards the systems under analysis.
 
+[fospl]: http://link.springer.com/book/10.1007/978-3-642-37521-7
+[bouwers]: http://repository.tudelft.nl/view/ir/uuid:6b65c5f5-398c-4a41-8806-31c638b1891c/
 
 ## First-Hand Experience
 

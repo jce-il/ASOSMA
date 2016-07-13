@@ -15,18 +15,17 @@ These are typically more than enough for OptiKey to run flawlessly.
 
 ##OptiKey - Code analysis and evaluation metrics
 
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/1.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/2.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/3.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/4.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/5.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/6.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/7.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/8.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/9.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/10.PNG)
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/11.PNG)
-
+![](images/1.PNG)
+![](images/2.PNG)
+![](images/3.PNG)
+![](images/4.PNG)
+![](images/5.PNG)
+![](images/6.PNG)
+![](images/7.PNG)
+![](images/8.PNG)
+![](images/9.PNG)
+![](images/10.PNG)
+![](images/11.PNG)
 
 
 ## Qualities Handling and System  requirements
@@ -44,11 +43,11 @@ OptiKey can automatically insert spaces between words and capitalise letters for
 
  You can even type whole words and phrases in a single selection by "swiping" or using "auto-complete".
 
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/image1.PNG)
+![](images/image1.PNG)
 
 OptiKey can replace your mouse, allowing you to click, scroll and drag with precision anywhere on screen.
 
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/image2.PNG)
+![](images/image2.PNG)
 
 To communicate naturally with those around you select the 'Speak' key and OptiKey will convert what you have typed into speech.
 
@@ -68,10 +67,10 @@ Type your first word
 
 If you make a mistake you can use the backspace key to delete your last selection:
 
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/image3.PNG)
+![](images/image3.PNG)
 
 or the BackMany key to delete the last whole word:
 
-![](https://github.com/adirel/ASOSMA/blob/master/OptiKey/images/image4.PNG)
+![](images/image4.PNG)
 That's all there is to start selecting keys and typing words
 check out the [video section](https://github.com/JuliusSweetland/OptiKey/wiki/Videos).

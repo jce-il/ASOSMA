@@ -1,4 +1,4 @@
-[![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
+
 
 # ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/beef.png) The BeEF Project 
 

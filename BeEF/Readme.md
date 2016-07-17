@@ -259,10 +259,15 @@ This module launches a great Man-In-The-Browser hack : the module loaded will ha
 Note that this module will cease working if the user manually enters a new URL in the address bar.
 
 ## Conclusion
+
 Nowadays, security is essential for every software in order to defend computers and network against intrusion and unauthorized use of resources. 
 BeEF gives us an opportunity to simulate hacker attacks by examine exploitability in browser context.
 The open source is available for everyone, and let us the possibility to verify security in a simple and accessible way. 
 
 Analyze an unknown project is not an easy task. Working on it as a team helped up to get over the difficulty by organizing and dispatching the work.
-Software modeling is the base and the first non-negligible part of a successful project. It consists in elaborating the best architecture for the product, using adapted tools and procedures. 
+ 
+We divided the project between the five of us. Each one worked an a specific part of the project, and we collaborated to put the elements together and create this chapter.
+We tried to contact the developpers of BeEF, in order to have their point of view of our porject and we asked for more specific details about some points. Unfortunately they didn't reply to our mails, but as soon as they will, we'll update our work according to their comments.
+
+Software modeling is the base and the first non-negligible part of a successful project. It consists in elaborating the best architecture for the product, using adapted tools and procedures.
 The course gave us the necessary tools in order to achieve this work successfully.

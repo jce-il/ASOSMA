@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: default
 project: BeEF
@@ -7,6 +8,9 @@ permalink: /BeEF/
 ---
 
 [![codebeat badge](https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278)](https://codebeat.co/projects/github-com-beefproject-beef)
+=======
+
+>>>>>>> bbe31ee9cd453523afb893254b58cf4ff3c201a8
 
 # ![](./beef.png) The BeEF Project 
 
@@ -72,8 +76,7 @@ permalink: /BeEF/
      
        
  
- 
-####**The Beef project documentation** 
+## The Beef project documentation
 
 We will discuss two perspectives of the given documentation:
  
@@ -88,7 +91,7 @@ In generally we think that in order to create a new module the supplied document
 
 
 
-####**Source Code Structure**
+#### Source Code Structure
 The code consists of ruby and JavaScript files.
 The application itself is written in ruby and the code that is supposed to be injected in to the "victim's" browsers in order to check its vulnerability is written in JavaScript.
 The code is built in a modular way so creating new modules and adding them to BeeF should be pretty easy, but as mention in the documentation section the core code of the project is complicated and requires a comprehensive code analysis.
@@ -98,7 +101,7 @@ Ruby code main classes:
 ![](./pic1.png)
 
 
-####**The Stakeholders**
+#### The Stakeholders
 The BeeF project comprises a large community of dozens of software engineers, developers and testers. They work on a voluntary base, as most of them have another job and no income is generated since BeeF is freeware, it is easy to assume that the developers come from the security information world or have a great affection to this field.
 As it can be seen from the following figures the 2 leading contributors are contributing to other projects that are also dealing with the information security field. 
 
@@ -128,7 +131,7 @@ Since the BeeF project is dependent on their users to use the system to assess t
 
 
 
-####UML Modeling Diagrams
+#### UML Modeling Diagrams
 
 **describe the main login attack:**
 
@@ -147,7 +150,7 @@ Since the BeeF project is dependent on their users to use the system to assess t
  (https://github.com/beefproject/beef/wiki/BeEF-RESTful-API)
  
 
-####**Challenges**
+#### Challenges
 
 
 **We think that the BeeF project has 2 major challenges:**
@@ -174,11 +177,11 @@ All the other major bugs are from 2 years ago or more so we guess it was fixed i
 
 &nbsp;
 
-### **Metrics, Variability and Quality Measures**  
+## Metrics, Variability and Quality Measures
   
 &nbsp;
   
-#### **Testing**  
+#### Testing
   
 BeEF is coping with the pace of change commonly expected from software by implementing a testing suite framework that currently have the following categories : 
 
@@ -194,7 +197,7 @@ BeEF is coping with the pace of change commonly expected from software by implem
   
   &nbsp;
  
-#### **Variability**  
+#### Variability
   
 BeEF is currently made up of 3 main components : Core,Extensions and Modules
 
@@ -219,7 +222,7 @@ BeEF can be configured to be integrated with Metasploit.
   
 &nbsp;
 
-#### **The applicability of a design metric tool to the project code**
+#### The applicability of a design metric tool to the project code
 
 ![](./codebeat.jpg)  
 
@@ -237,7 +240,7 @@ CodeBeat presents to us a list of critical issues that should improve our GPA sc
 According to [BeEF’s codebeat](https://codebeat.co/projects/github-com-beefproject-beef),they have many problems in a class called CommandDispatcher ::Core .   
 ![](./git_errors.PNG)  
 
-###**Qualities of product**
+## Qualities of product
 
 **Availability**
 
@@ -249,6 +252,7 @@ Also, Beef documentation provides support in case of unsuccessful installation o
 
 When a user runs up BeEF currently, there are two components started: the User Interface and the Communication Server (CS).
 CS is the component that communicates via HTTP with the hooked browsers. In order to keep a browser hooked, and ensure the connection, four modules have been developed:
+
 1.	Create Pop Under
 This module creates a new discrete pop under window with the BeEF hook included. Another browser node will be added to the hooked browser tree.
 It supports all browsers.
@@ -266,11 +270,16 @@ This module launches a great Man-In-The-Browser hack : the module loaded will ha
 
 Note that this module will cease working if the user manually enters a new URL in the address bar.
 
-###**Conclusion**
+## Conclusion
+
 Nowadays, security is essential for every software in order to defend computers and network against intrusion and unauthorized use of resources. 
 BeEF gives us an opportunity to simulate hacker attacks by examine exploitability in browser context.
 The open source is available for everyone, and let us the possibility to verify security in a simple and accessible way. 
 
 Analyze an unknown project is not an easy task. Working on it as a team helped up to get over the difficulty by organizing and dispatching the work.
-Software modeling is the base and the first non-negligible part of a successful project. It consists in elaborating the best architecture for the product, using adapted tools and procedures. 
+ 
+We divided the project between the five of us. Each one worked an a specific part of the project, and we collaborated to put the elements together and create this chapter.
+We tried to contact the developpers of BeEF, in order to have their point of view of our porject and we asked for more specific details about some points. Unfortunately they didn't reply to our mails, but as soon as they will, we'll update our work according to their comments.
+
+Software modeling is the base and the first non-negligible part of a successful project. It consists in elaborating the best architecture for the product, using adapted tools and procedures.
 The course gave us the necessary tools in order to achieve this work successfully.

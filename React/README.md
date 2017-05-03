@@ -10,4 +10,4 @@ React is a JavaScript library for building user interfaces.
 
 - [Zaki Natsheh](https://github.com/ZakiNata "Zaki Natsheh")
 -  [Ilya Krasnov](https://github.com/ilyakrasnov "Ilya Krasnov")
--  [Raphael](https://github.com/leahpar47 "Raphael")
+-  [Raphael Genah](https://github.com/leahpar47 "Raphael")

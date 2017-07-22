@@ -62,7 +62,7 @@ Changes in *shape* are an indicator for lots of nested conditions. When you see 
 
 <img src="images/complexity-trend.png" alt="Code Complexity" width="800">
 
-In the graph we see that aroung May/June of 2015 the LOC on *ReactCompositeComponent.js* approximately doubled from aroudn 250 to 500, while the complexity measure of this file seems to have quadrupled. Watching out for such changes can help identify potentially complex part of the application, which is the first step in reducing complexity.
+In the graph we see that around May/June of 2015 the LOC on *ReactCompositeComponent.js* approximately doubled from aroudn 250 to 500, while the complexity measure of this file seems to have quadrupled. Watching out for such changes can help identify potentially complex part of the application, which is the first step in reducing complexity.
 
 
 ### Knowledge Maps and Organizational Structure

@@ -6,7 +6,7 @@ permalink: /index.html
 creator: 
 - role: Editor
 - text: robi-y
-date: July 2016, Version 1.0
+date: July 2017, Version 1.1 with 2017 2 groups
 ---
 # [ASOSMA 2016][ASOSMA.io]
 
@@ -32,6 +32,11 @@ date: July 2016, Version 1.0
   * [Readme](VideoJs/README.md)
 * [Firefox-ios](firefox-ios):
   * [Readme](firefox-ios/README.md)  
+---
+* [allReady](allReady):
+  * [Readme](allReady/ReadMe.md)  
+* [React](React):
+  * [Readme](React/README.md)  
 -->
 
 ## Introduction
